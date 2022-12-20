@@ -1,0 +1,30 @@
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Add Contact</h2>
+                </div>
+                <div class="card-body">
+                    <form action="/contacts/edit/{{contacts.id}}" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" value="{{contacts.name}}"class="form-control" id="name" name="name" placeholder="Enter name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" value="{{contacts.email}}" class="form-control" id="email" name="email" placeholder="Enter email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone</label>
+                            <input type="text" value="{{contacts.phone}}" class="form-control" id="phone" name="phone" placeholder="Enter phone">
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn-submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="row">
+
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Add Contacts</h2>
+                </div>
+                <div class="card-body">
+                    <form action="/contacts/add" method="GET">
+                        <div class="form-group">
+                            <button type="submit" class="btn-submit">Add Contacts</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        {{#each contacts}}
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    {{name}}
+                </div>
+                <div class="card-body">
+                    <p class="text-content">Email: {{email}}</p>
+                    <div id="line"></div>
+                    <p class="text-content">Phone: {{phone}}</p>
+                    <a href="/contacts/delete/{{id}}" class="btn">Delete</a><a href="/contacts/edit/{{id}}" class="btn">Edit</a>
+                </div>
+
+        </div>
+
+        </div>
+        {{else}}
+        <div class="col">
+            <div class="card">
+                <div class="card-header">
+                    No contacts
+                </div>
+                <div class="card-body">
+                    <p class="text-content">No contacts found</p>
+                </div>
+
+            </div>
+        {{/each}}
+    </div>
+</div>

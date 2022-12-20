@@ -1,0 +1,40 @@
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap" rel="stylesheet">    <link rel="stylesheet" href="/css/styles.css">
+    <title>BetterContacts</title>
+</head>
+<body>
+    <div class="nav">
+        <div class="tittle">
+            <a href="/" >BetterContacts</a>
+        </div>
+
+        {{#if user}}
+         
+        <div class="nav-item">
+            <a href="/logout">LogOut</a>
+        </div>
+
+        {{/if}}
+
+        
+        {{#if notUser}}
+        <div class="nav-item">
+            <a href="/signin">Signin</a>
+        </div>
+
+        <div class="nav-item">
+            <a href="/signup">Signup</a>
+        </div>
+        {{/if}}
+        
+
+    </div>
+
+    {{> message }}
+
+
+    {{{ body }}}
+</body>
+</html>

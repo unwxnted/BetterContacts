@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    background-color: #494949;
+    border-bottom: #000 solid;
+}
+
+.nav-item {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    width: 100%;
+    height: 100%;
+    padding: 11px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #494949;
+    transition: 0.3s;
+}
+
+a:-webkit-any-link {
+    color: rgb(16, 15, 15);
+}
+
+.tittle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 11px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #494949;
+    transition: 0.3s;
+    border: 15px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(52, 51, 51);
+    transition: 0.3s;
+}
+
+.row {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(52, 51, 51);
+    transition: 0.3s;
+}
+
+.card {
+    width: 100%;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgb(92, 84, 84);
+    transition: 0.3s;
+    border-radius: 19px;
+    box-shadow: 0px 12px 24px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-header{
+    display: inline;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px;
+    background-color: rgb(92, 84, 84);
+    transition: 0.3s;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+    font-size: 1.3rem;
+    background-color: rgb(92, 84, 84);
+    transition: 0.3s;
+}
+
+.col{
+    display: block;
+    margin: 1%; 
+    padding: 1%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 0.5em;
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: rgb(92, 84, 84);
+    transition: 0.3s;
+}
+
+.btn-submit {
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    margin-top: 0.5em;
+    width: 7em;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: rgb(98, 95, 95);
+    transition: 0.3s;
+    border-radius: 19px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: rgb(137, 126, 126);
+}
+
+.btn{
+    display: inline-flex;
+    flex-direction: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 0.5em;
+    padding: 5px;
+    width: max-content;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none !important;
+    background-color: rgb(98, 95, 95);
+    transition: 0.3s;
+    border-radius: 8px;
+    border: solid 1px black;
+    cursor: pointer;
+    box-shadow: 0px 12px 24px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn:hover {
+    background-color: rgb(137, 126, 126);
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin-top: 0.5em;
+    height: 10%;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 10px;
+    text-decoration: none !important;
+    background-color: #5a5a5a;
+    transition: 0.3s;
+}
+
+.text-content{
+    font-weight: bold;
+}
+
+
+#line{
+    border-bottom: 1px solid rgba(217, 201, 201, 0.885);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    width: 11em;
+}
+
+.bad-alert{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none !important;
+    background-color: #931320;
+    transition: 0.3s;
+}
+
+.good-alert{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none !important;
+    background-color: #00611fde;
+    transition: 0.3s;
+}
