@@ -13,7 +13,7 @@ async function checkValidPhone(phone){
     return true;
 }
 
-router.get('/add', (req, res) => {
+router.get('/add', isLoggedIn, async (req, res) => {
     res.render('contacts/add');
 });
 
