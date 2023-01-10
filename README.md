@@ -1,20 +1,46 @@
 # BetterContacts
-A web app maded in nodeJS, express, handlebars, passport and mysql
 
-## Description
+BetterContacts is a simple contact app made with Node.js and Express.js. It allows users to create and manage their contacts, as well as perform other actions such as login and registration.
 
-This app is made for save your contacts, It is made for learning purposes.
+## Getting Started
 
-I'd learn some techs like passport and handlebars for made it.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Build it
+## Prerequisites
 
-Use the sql file to set the db, and set up the server dependencies with the command:
-'npm install'
+- Node.js
 
-and for run it use:
-'node server.js'
+- npm (included with Node.js)
 
-you can use it with nodemon.
+## Installing
 
-## Thanks for reading
+To install the dependencies, navigate to the root of the project and run:
+
+```
+npm install
+```
+
+## Running the app
+
+To start the app in development mode, run:
+
+```
+npm run dev
+```
+
+The app will now be running on http://localhost:3000.
+
+## Built With
+
+- Node.js - JavaScript runtime
+
+- Express.js - Web framework for Node.js
+
+- express-handlebars - Handlebars view engine for Express
+
+- mysql - Node.js driver for MySQL
+
+- passport - Authentication middleware for Node.js
+
+## Contribution
+I'd love to have your help making this project better.
